@@ -1,0 +1,7 @@
+create database bank;
+
+use bank;
+
+create table customer (name varchar(50),email varchar(50),acctno varchar(50),balance float(10,2));
+
+insert into customer values ('Akriti','lika@gmail.com','123AKT',43346.00);
